@@ -1,0 +1,144 @@
+/* css by David Garcia, 2021 */
+
+/* gradient background */
+body {
+    background: rgb(243, 244, 245);
+    background: linear-gradient(90deg, rgba(243, 244, 245, 1) 0%, rgba(52, 174, 213, 1) 100%);
+}
+
+/* sets 100% of max width */
+img {
+    max-width: 100%
+}
+
+/* creates a block level container, which becomes centered */
+.wrap {
+    align-items: center;
+    display: flex;
+    justify-content: left;
+    padding-bottom: 30px;
+}
+
+/* sets initial size */
+.pic {
+    flex-basis: 14%;
+}
+
+.txt {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+}
+
+/* button1 Start properties */
+.button1 {
+    padding: 5px 5px;
+    width: 120px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border-color: #add8e6;
+}
+
+/* when cursor hovers over, turn green w/ white letters */
+.button1:hover {
+    background-color: #3bb13f;
+    color: white;
+}
+
+/* when button is disabled, turn gray */
+.button1:disabled {
+    background-color: #888888;
+    color: #525252;
+}
+
+/* button2 Stop properties */
+.button2 {
+    padding: 5px 5px;
+    width: 120px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border-color: #add8e6;
+}
+
+/* when cursor hovers over, turn red w/ white letters */
+.button2:hover {
+    background-color: #f23426;
+    color: white;
+}
+
+/* when button is disabled, turn gray */
+.button2:disabled {
+    background-color: #888888;
+    color: #525252;
+}
+
+/* button3 Reset properties */
+.button3 {
+    padding: 5px 5px;
+    width: 120px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    border-color: #add8e6;
+}
+
+/* when cursor hovers over, turn blue w/ white letters */
+.button3:hover {
+    background-color: #006f94;
+    color: white;
+}
+
+/* when button is disabled, turn gray */
+.button3:disabled {
+    background-color: #888888;
+    color: #525252;
+}
+
+table {
+    /* all table cells have own independent borders */
+    border-collapse: separate;
+    background: rgb(176, 217, 231);
+    background: linear-gradient(0deg, rgba(176, 217, 231, 1) 0%, rgba(243, 244, 245, 1) 90%);
+    border-top: #808080 solid;
+    border-left: #808080 solid;
+    border-bottom: black solid;
+    border-right: black solid;
+}
+
+/* header properties of table */
+thead th {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    white-space: nowrap;
+    font-weight: bolder;
+    text-align: left;
+    padding-right: 500px;
+    border-top: 2px black solid;
+    border-left: 2px black solid;
+    border-bottom: 2px #808080 solid;
+    border-right: 2px #808080 solid;
+}
+
+/* body properties of table */
+tbody tr td {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #000000;
+    font-size: 20px;
+    border-top: 2px black solid;
+    border-left: 2px black solid;
+    border-bottom: 2px #808080 solid;
+    border-right: 2px #808080 solid;
+}
+
+/* Adds 30 pixels of space between the table and buttons. */
+.timer {
+    padding-top: 30px;
+}
